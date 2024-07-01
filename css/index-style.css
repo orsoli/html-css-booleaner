@@ -36,6 +36,10 @@
     color: #0099ff;
 }
 
+.bg-color{
+    background-color: #87e1f3;
+}
+
 .container{
     font-family: 'Times New Roman', Times, serif;
     max-width: 70%;
@@ -65,6 +69,25 @@ header{
     background-position: center;
     background-size: 80% contain;
 }
+
+table{
+    border-spacing: 0;
+    width: 100%;
+}
+
+th{
+    text-align: left;
+}
+
+thead{
+    background-color: #47acef;
+    color: white;
+}
+
+td.description{
+    width: 50%;
+}
+
 
 ul{
     padding-left: 10px;
