@@ -1,0 +1,24 @@
+#logo{
+    align-content: center;
+    margin: 0;
+    width: 150px;
+    height: 100px;
+}
+
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 80%;
+}
+
+body{
+    height: auto;
+    margin: auto;
+    width: 1000px;
+}
+
+header{
+    background-color:#0099ff;
+    background-image: url('../img/header.png');
+    background-position: center;
+    background-size: 80% contain;
+}
