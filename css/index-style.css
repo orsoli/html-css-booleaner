@@ -5,6 +5,16 @@
     height: 100px;
 }
 
+#tim-1{
+    width: 49%;
+    height: 200px;
+}
+
+#tim-2{
+    width: 49%;
+    height: 200px;
+}
+
 #title{
     margin-bottom: 0;
 }
@@ -22,9 +32,17 @@
     font-family: 'Times New Roman', Times, serif;
     max-width: 80%;
 }
+.caption{
+    font-size: 12px;
+}
 
 .date{
     font-size: 10px;
+}
+
+.images{
+    display: inline-block;
+    margin: 0;
 }
 
 body{
