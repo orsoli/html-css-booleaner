@@ -1,3 +1,21 @@
+#article-1{
+    background-image: url("../img/blog-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+
+#article-2{
+    background-image: url("../img/blog-2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#blog-1{
+    display: block;
+    margin-bottom: 5px;
+}
+
 #logo{
     align-content: center;
     margin: 0;
@@ -40,6 +58,8 @@
     background-color: #87e1f3;
 }
 
+
+
 .container{
     font-family: 'Times New Roman', Times, serif;
     max-width: 70%;
@@ -57,10 +77,25 @@
     margin: 0;
 }
 
+article{
+    height: 200px;
+    width: 300px;
+}
+
+article>h3{
+    color: white;
+    margin: 0px;
+    padding: 5px;
+}
+
 body{
     height: auto;
     margin: auto;
     width: 700px;
+}
+
+figure.blog{
+    margin-left: 0;
 }
 
 header{
@@ -86,6 +121,10 @@ thead{
 
 td.description{
     width: 50%;
+}
+
+section>h3{
+    color: grey;
 }
 
 
