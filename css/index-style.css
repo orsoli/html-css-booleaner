@@ -5,15 +5,32 @@
     height: 100px;
 }
 
+#title{
+    margin-bottom: 0;
+}
+
+.addres{
+    color: grey;
+    font-style: normal;
+    font-size: 12px;
+}
+.author{
+    color: #0099ff;
+}
+
 .container{
     font-family: 'Times New Roman', Times, serif;
     max-width: 80%;
 }
 
+.date{
+    font-size: 10px;
+}
+
 body{
     height: auto;
     margin: auto;
-    width: 1000px;
+    width: 680px;
 }
 
 header{
